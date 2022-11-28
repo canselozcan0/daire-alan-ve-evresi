@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class driver {
+public static void main(String[] args) {
+	int r, a;
+	Scanner input = new Scanner(System.in);
+	System.out.println("r sayısını giriniz");
+	r = input.nextInt();
+	System.out.println("a sayısını giriniz : ");
+	a = input.nextInt();
+	double pi = 3.14;
+//	double alan = pi * r * r;
+//	System.out.println(alan);
+//	double çevre = 2 * pi * r;
+//	System.out.println(çevre);
+	double alan = (pi *(r * r) * a)/360;
+	System.out.println(alan);
+	
+}
+}
